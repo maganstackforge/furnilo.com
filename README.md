@@ -78,7 +78,7 @@ FURNILO_APP
 
 Clone the repository:
 
-git clone https://github.com/your-username/furnilo.git
+git clone https://github.com/Magan248/furnilo.com.git
 
 Move into the project directory:
 
