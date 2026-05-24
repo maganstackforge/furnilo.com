@@ -1,0 +1,227 @@
+export const OutdoorConfig = {
+  id: 'outdoor',
+  title: 'Outdoor',
+  order: 6,
+  trackingKey: 'outdoor_category_click',
+  iconKey: 'outdoor',
+  image:
+    'https://images.unsplash.com/photo-1765182105293-85cf0bf5c968?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  path: '/outdoor',
+
+  desktop: {
+    columns: [
+      {
+        title: 'Seating & Loungers',
+        order: 1,
+        groups: [
+          {
+            title: 'Outdoor Seating',
+            order: 1,
+            items: [
+              {
+                id: 'all-outdoor-sofas',
+                title: 'All Outdoor Sofas',
+                path: '/outdoor-sofas',
+                image: 'https://cdn.pixabay.com/photo/2015/05/28/20/43/sofa-788537_1280.jpg',
+                order: 1,
+                trackingKey: 'outdoor_sofa_all_click',
+                filter: { category: 'outdoor', subCategory: 'Sofas' },
+              },
+              {
+                id: 'lounge-chairs-outdoor',
+                title: 'Lounge Chairs',
+                path: '/outdoor-chairs/lounge',
+                image: 'https://cdn.pixabay.com/photo/2017/06/26/16/45/garden-2444331_1280.png',
+                order: 2,
+                trackingKey: 'outdoor_lounge_chair_click',
+                filter: { category: 'outdoor', subCategory: 'Lounge Chairs' },
+              },
+              {
+                id: 'recliners-outdoor',
+                title: 'Recliners',
+                path: '/outdoor-chairs/recliners',
+                image: 'https://cdn.pixabay.com/photo/2015/09/13/03/41/man-937665_1280.jpg',
+                order: 3,
+                trackingKey: 'outdoor_recliner_click',
+                filter: { category: 'outdoor', subCategory: 'Recliners' },
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        title: 'Tables & Dining',
+        order: 2,
+        groups: [
+          {
+            title: 'Outdoor Tables',
+            order: 1,
+            items: [
+              {
+                id: 'outdoor-coffee-tables',
+                title: 'Coffee Tables',
+                path: '/outdoor-tables/coffee',
+                image: 'https://cdn.pixabay.com/photo/2020/09/23/21/08/table-5597088_1280.jpg',
+                order: 1,
+                trackingKey: 'outdoor_coffee_table_click',
+                filter: { category: 'outdoor', subCategory: 'Coffee Tables' },
+              },
+              {
+                id: 'outdoor-dining-tables',
+                title: 'Dining Tables',
+                path: '/outdoor-tables/dining',
+                image: 'https://cdn.pixabay.com/photo/2022/07/16/17/34/al-fresco-dining-7325628_1280.jpg',
+                order: 2,
+                trackingKey: 'outdoor_dining_table_click',
+                filter: { category: 'outdoor', subCategory: 'Dining Tables' },
+              },
+              {
+                id: 'side-tables-outdoor',
+                title: 'Side & End Tables',
+                path: '/outdoor-tables/side-end',
+                image: 'https://cdn.pixabay.com/photo/2021/03/26/03/51/armchair-6124706_1280.jpg',
+                order: 3,
+                trackingKey: 'outdoor_side_table_click',
+                filter: { category: 'outdoor', subCategory: 'Side & End Tables' },
+              },
+            ],
+          },
+          {
+            title: 'Outdoor Dining Sets',
+            order: 2,
+            items: [
+              {
+                id: '2-seater-dining-set',
+                title: '2 Seater Sets',
+                path: '/outdoor-dining-sets/2-seater',
+                image: 'https://cdn.pixabay.com/photo/2020/08/27/07/31/restaurant-5521372_1280.jpg',
+                order: 1,
+                trackingKey: 'outdoor_2_seater_set_click',
+                filter: { category: 'outdoor', subCategory: 'Dining Sets', seatingCapacity: '2 Seater' },
+              },
+              {
+                id: '4-seater-dining-set',
+                title: '4 Seater Sets',
+                path: '/outdoor-dining-sets/4-seater',
+                image: 'https://cdn.pixabay.com/photo/2017/04/27/08/18/champagne-2264811_1280.jpg',
+                order: 2,
+                trackingKey: 'outdoor_4_seater_set_click',
+                filter: { category: 'outdoor', subCategory: 'Dining Sets', seatingCapacity: '4 Seater' },
+              },
+              {
+                id: '6-seater-dining-set',
+                title: '6 Seater Sets',
+                path: '/outdoor-dining-sets/6-seater',
+                image: 'https://cdn.pixabay.com/photo/2018/01/26/08/15/dining-room-3108037_1280.jpg',
+                order: 3,
+                trackingKey: 'outdoor_6_seater_set_click',
+                filter: { category: 'outdoor', subCategory: 'Dining Sets', seatingCapacity: '6 Seater' },
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        title: 'Storage & Accessories',
+        order: 3,
+        items: [
+          {
+            id: 'outdoor-cabinets',
+            title: 'Storage Cabinets',
+            path: '/outdoor-storage/cabinets',
+            image:
+              'https://images.unsplash.com/photo-1709372265308-a8b0a11f6602?q=80&w=594&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            order: 1,
+            trackingKey: 'outdoor_cabinet_click',
+            filter: { category: 'outdoor', subCategory: 'Storage Cabinets' },
+          },
+          {
+            id: 'planters-outdoor',
+            title: 'Planters & Pots',
+            path: '/outdoor-accessories/planters',
+            image: 'https://cdn.pixabay.com/photo/2020/07/22/19/45/ornamental-flowerpot-5429622_1280.jpg',
+            order: 2,
+            trackingKey: 'outdoor_planter_click',
+            filter: { category: 'outdoor', subCategory: 'Planters & Pots' },
+          },
+          {
+            id: 'sideboards-outdoor',
+            title: 'Sideboards & Console Tables',
+            path: '/outdoor-storage/sideboards',
+            image: 'https://cdn.pixabay.com/photo/2017/11/08/09/26/retro-2929715_1280.jpg',
+            order: 3,
+            trackingKey: 'outdoor_sideboard_click',
+            filter: { category: 'outdoor', subCategory: 'Sideboards & Console Tables' },
+          },
+        ],
+      },
+    ],
+
+    promo: {
+      image: 'https://cdn.pixabay.com/photo/2022/10/01/03/27/street-7490578_1280.jpg',
+      path: '/outdoor-sofas',
+      trackingKey: 'outdoor_promo_click',
+    },
+  },
+
+  mobile: {
+    topGrid: [
+      {
+        id: 'outdoor-sofas',
+        title: 'Outdoor Sofas',
+        image: 'https://cdn.pixabay.com/photo/2022/10/01/03/27/street-7490578_1280.jpg',
+        path: '/outdoor-sofas',
+        order: 1,
+        trackingKey: 'mobile_outdoor_sofa_click',
+        filter: { category: 'outdoor', subCategory: 'Sofas' },
+      },
+      {
+        id: 'lounge-chairs-outdoor',
+        title: 'Lounge Chairs',
+        image: 'https://cdn.pixabay.com/photo/2017/06/26/16/45/garden-2444331_1280.png',
+        path: '/outdoor-chairs/lounge',
+        order: 2,
+        trackingKey: 'mobile_outdoor_lounge_click',
+        filter: { category: 'outdoor', subCategory: 'Lounge Chairs' },
+      },
+      {
+        id: 'outdoor-coffee-tables',
+        title: 'Coffee Tables',
+        image: 'https://cdn.pixabay.com/photo/2020/09/23/21/08/table-5597088_1280.jpg',
+        path: '/outdoor-tables/coffee',
+        order: 3,
+        trackingKey: 'mobile_outdoor_coffee_click',
+        filter: { category: 'outdoor', subCategory: 'Coffee Tables' },
+      },
+      {
+        id: '4-seater-dining-set',
+        title: '4 Seater Dining Set',
+        image: 'https://cdn.pixabay.com/photo/2017/04/27/08/18/champagne-2264811_1280.jpg',
+        path: '/outdoor-dining-sets/4-seater',
+        order: 4,
+        trackingKey: 'mobile_outdoor_4_seater_click',
+        filter: { category: 'outdoor', subCategory: 'Dining Sets', seatingCapacity: '4 Seater' },
+      },
+      {
+        id: 'planters-outdoor',
+        title: 'Planters',
+        image: 'https://cdn.pixabay.com/photo/2020/07/22/19/45/ornamental-flowerpot-5429622_1280.jpg',
+        path: '/outdoor-accessories/planters',
+        order: 5,
+        trackingKey: 'mobile_outdoor_planter_click',
+        filter: { category: 'outdoor', subCategory: 'Planters & Pots' },
+      },
+      {
+        id: 'sideboards-outdoor',
+        title: 'Sideboards',
+        image: 'https://cdn.pixabay.com/photo/2017/11/08/09/26/retro-2929715_1280.jpg',
+        path: '/outdoor-storage/sideboards',
+        order: 6,
+        trackingKey: 'mobile_outdoor_sideboard_click',
+        filter: { category: 'outdoor', subCategory: 'Sideboards & Console Tables' },
+      },
+    ],
+  },
+}
