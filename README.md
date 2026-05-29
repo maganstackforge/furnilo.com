@@ -5,9 +5,13 @@ The project focuses on creating a clean UI/UX inspired by modern furniture platf
 
 ---
 
-## 🚀 Live Demo
+## 🔗 Important Links
 
-🔗 Live Site: https://your-live-link.com
+🌐 Live Site: https://furnilo.vercel.app/
+💻 GitHub Profile: https://github.com/maganstackforge
+📂 Project Repository: https://github.com/maganstackforge/furnilo.com
+👤 LinkedIn: https://linkedin.com/in/maganstackforge
+📧 Email: magan.stackforge@gmail.com
 
 ---
 
@@ -56,14 +60,20 @@ FURNILO_APP
 • Tailwind CSS utility-first styling
 
 🛠️ Tech Stack
-• Frontend
+
+Frontend:
 • React.js
 • Vite
 • Tailwind CSS
+
+Routing:
 • React Router DOM
+
+Animation:
 • Framer Motion
+
+UI Libraries:
 • Swiper.js
-• Icons & UI
 • Lucide React
 • React Icons
 • Heroicons
@@ -78,7 +88,7 @@ FURNILO_APP
 
 Clone the repository:
 
-git clone https://github.com/Magan248/furnilo.com.git
+git clone https://github.com/Maganstackforge/furnilo.com.git
 
 Move into the project directory:
 
@@ -145,10 +155,8 @@ Add your screenshots here.
 👨‍💻 Author
 
 Magan Singh
-React Front-End Developer
-
-GitHub: https://github.com/Magan248
-LinkedIn: https://www.linkedin.com/in/magan248
+Frontend Developer Intern @ Namrata Universal  
+MCA Graduate | React.js | JavaScript | Node.js (Learning)
 
 📄 License
 
