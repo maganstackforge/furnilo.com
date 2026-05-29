@@ -140,7 +140,7 @@ Add your screenshots here.
 ![Home Page](./public/Screenshot/HomePageMenu.webp)
 ![Home Page](./public/Screenshot/HomePageMobile.webp)
 ![Home Page](./public/Screenshot/HomePageCategories.webp)
-![Home Page](./public/Screenshot/ProductCard.webp)
+![Home Page](./public/Screenshot/productCard.webp)
 
 🔮 Future Improvements
 
