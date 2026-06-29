@@ -7,11 +7,12 @@ The project focuses on creating a clean UI/UX inspired by modern furniture platf
 
 ## 🔗 Important Links
 
-🌐 Live Site: https://furnilo.vercel.app/
-💻 GitHub Profile: https://github.com/maganstackforge
-📂 Project Repository: https://github.com/maganstackforge/furnilo.com
-👤 LinkedIn: https://linkedin.com/in/maganstackforge
-📧 Email: magan.stackforge@gmail.com
+🌐 Live Demo: https://furnilo.vercel.app/
+💻 Repository: https://github.com/theprocoderx/furnilo-ecommerce
+👨‍💻 Portfolio: https://procoderx.com
+🐙 GitHub: https://github.com/theprocoderx
+💼 LinkedIn: https://linkedin.com/in/procoderx
+📧 Email: procoderxs@gmail.com
 
 ---
 
@@ -88,7 +89,7 @@ UI Libraries:
 
 Clone the repository:
 
-git clone https://github.com/Maganstackforge/furnilo.com.git
+git clone https://github.com/theprocoderx/furnilo-ecommerce.git
 
 Move into the project directory:
 
